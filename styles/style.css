@@ -40,7 +40,7 @@ body{
     
 }
 .heading{
-    font-size: 20pxpx;
+    font-size: 20px;
 }
 .content{
     font-size: 13px;
@@ -59,7 +59,11 @@ body{
    
 }
 .name{
-     padding-left: 35px;    
+     padding-left: 35px; 
+     color: grey;   
+}
+.name b{
+    color: black !important;
 }
 
 .footer{
