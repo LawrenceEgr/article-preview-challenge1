@@ -30,7 +30,7 @@ body{
 
 .main{
 
-    margin-left: 200px !important;
+    margin-left: 210px !important;
     padding-top: 2%;
     padding-left: 3%;
     padding-right: 5%;
@@ -79,7 +79,9 @@ body{
 button{
     margin-left: 80%;
     cursor: pointer;
-    border-radius: 28%;
+    border-radius: 50%;
+    background-color: #D9EBEF;
+    border-color: #D9EBEF; 
    
    
    
