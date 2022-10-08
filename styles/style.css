@@ -1,0 +1,95 @@
+body{
+    background-color: #E1E5E6;
+}
+.container{
+    /* padding: 50px; */
+    border-radius: 2%;
+    background-color: #D9EBEF;
+    padding-top: 16%;
+    padding-bottom: 16%;
+    padding-left: 26%;
+    padding-right: 26%;
+    margin-top: 6%;
+    margin-bottom: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.image{
+    float: left;
+    margin-bottom: 0px;
+}
+.content-part{
+        background-color: white;
+        border-radius: 2%;
+}
+.content-part::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.main{
+
+    margin-left: 200px !important;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 5%;
+    padding-bottom: 0%;
+    font-weight: 150;
+    
+    
+}
+.heading{
+    font-size: 20pxpx;
+}
+.content{
+    font-size: 13px;
+    color: grey;
+}
+.michelle{
+    float: left;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+.footer ::after{
+    content: "";
+    clear: both;
+    display: table;
+   
+}
+.name{
+     padding-left: 35px;    
+}
+
+.footer{
+   margin-bottom: 0%;
+    
+}
+.share-part .icons{
+    position: relative;
+    display: none;
+ 
+    
+    margin-left: 70% ;
+    background-color: #BADAE1;
+    border-bottom-left-radius: -5%;
+    text-align: right;
+}
+button{
+    margin-left: 80%;
+    cursor: pointer;
+    border-radius: 30%;
+    height: 20px;
+    width: 20px;
+    background-color: #23474E;
+   
+}
+
+
+#share-icon:hover  .icons{
+    display: inline-block;
+}
+#fb , #twitter{
+    cursor: pointer;
+}
